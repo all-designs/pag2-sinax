@@ -1,0 +1,66 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.m_mt_30 {
+		margin-top: 30px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.s_mt_30 {
+		margin-top: 30px;
+	}
+
+	.work_area .section_title .title_text h2 {
+		font-size: 29px;
+	}
+
+	.work_area .section_title .gal_contlr button {
+		font-size: 10px;
+		margin-left: 2px;
+		text-align: right;
+	}
+
+	.work_overly button {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.overly_text {
+		left: 10px;
+		bottom: 27px;
+	}
+
+	.overly_text h5 {
+		font-size: 12px;
+	}
+
+	.overly_text span {
+		font-size: 9px;
+	}
+
+	.count_items {
+		padding: 25px 0;
+	}
+
+	.count_number::before {
+		top: 46px;
+	}
+
+	.count_items .count_number {
+		font-size: 29px;
+	}
+
+	.toggle_bars {
+		display: none;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
